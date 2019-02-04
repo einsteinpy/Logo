@@ -6,17 +6,19 @@ import matplotlib.pyplot as plt
 from einsteinpy import constant
 
 
-# pos_vec = np.array([306.0, np.pi/2, 0.])
-# # vel_vec = np.array([0, 0, 6.6591005e-6])
-# vel_vec = np.array([0, 0, 6.645e-6*constant.c.value])
-# # vel_vec = np.array([0, 0, 0])
-# M = 5.972e25 * u.kg
-# time = 0 * u.s
-# cl = Schwarzschild.from_values(pos_vec, vel_vec, time, M)
-# ANS = cl.calculate_trajectory(end_lambda=1e30, OdeMethodKwargs={'stepsize':1e-6})
-# ANS = cl.calculate_trajectory(end_lambda=300000, OdeMethodKwargs={'vectorized':True})
 
 end_lambda=0.021
+
+
+
+
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.scatter(0,0, s=0.5, color='white')
+plt.axis(xmin = -350, xmax=350, ymin=-350, ymax=350)
+ax.set_aspect(1)
+plt.savefig(fname='whitedot.png', transparent=True, dpi=1500)
+
 
 
 
