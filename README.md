@@ -1,3 +1,5 @@
-# Logo
-Logos for EinsteinPy
-![](./logo0/logo.png)
+# Logo for EinsteinPy
+
+![](./Logo/Full/EinsteinPy_trans.png)
+
+Font Used: Advent Pro Bold
